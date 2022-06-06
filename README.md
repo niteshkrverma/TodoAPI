@@ -1,12 +1,13 @@
-# TodoAPI
-Todo API Using Django
+## Django REST Framework Complete TODO API
 
-It is todo crud API
 
-In this API you can add todo list
+## To Run this Project follow below:
 
-Update todo list
-
-Delete Todo list
-
+```bash
+mkvirtualenv authenv
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
 
